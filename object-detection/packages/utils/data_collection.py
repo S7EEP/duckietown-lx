@@ -23,14 +23,14 @@ SIMULATED_TRAIN_SPLIT_PERCENTAGE = 0.8
 MAPS = ["loop_pedestrians", "udem1", "loop_dyn_duckiebots", "zigzag_dists"]
 
 # - max number of images total and per map
-MAX_NUMBER_OF_IMAGES = 200
-MAX_NUMBER_OF_IMAGES_PER_MAP = 50
+MAX_NUMBER_OF_IMAGES = 1000
+MAX_NUMBER_OF_IMAGES_PER_MAP = 200
 
 # - every X images taken from a map we reset the environment
-RESET_ENVIRONMENT_EVERY_IMAGES = 100
+RESET_ENVIRONMENT_EVERY_IMAGES = 50
 
 # - save images with bounding boxes (this will NOT work for training, but is useful for debugging)
-EXPORT_BOUNDING_BOX_IMAGES = False
+EXPORT_BOUNDING_BOX_IMAGES = True
 
 # - opens the simulator window
 SHOW_SIMULATOR_WINDOW = True
